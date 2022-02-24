@@ -1,0 +1,18 @@
+Written by Mike Richardson 10/10/2021.
+
+This folder contains all the files necessary to run the climbing hold detection
+programme. Here is a breakdown of the important files.
+
+hold_tracking.py = The main script 
+hold_detection.ipynb = A Jupyter notebook file for testing individual
+components
+
+hold_footage_2.mov = The test footage captured to perform tracking on.
+
+data/raw_video = A folder containing captured footage in raw camera format
+
+yolov5 = The model and all its components.
+
+data = Images and labels used to train the model on climbing holds. Currently
+the model is only trained on black climbing holds with green spots. Eventually
+other hold colours will be added.
